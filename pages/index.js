@@ -23,22 +23,22 @@ const Home = () => {
   return (
     <Fragment>
       <Head>
-        <title>Shiv&apos;s Portfolio</title>
+        <title>DUONG Portfolio</title>
         {/* <!-- Primary Meta Tags --> */}
-        <meta content="Shiv's Portfolio" name="title" />
+        <meta content="DUONG Portfolio" name="title" />
         <meta content="Explore the best Next.js and React.js portfolio by Shivraj Gurjar. Featuring simple, dark and light theme designs and mobile responsiveness." name="description" />
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta content="website" property="og:type" />
         <meta content="https://my-portfolio-one-red-25.vercel.app" property="og:url" />
-        <meta content="Shiv's Portfolio" property="og:title" />
+        <meta content="DUONG Portfolio" property="og:title" />
         <meta content="Explore the best Next.js and React.js portfolio by Shivraj Gurjar. Featuring simple, dark and light theme designs and mobile responsiveness." property="og:description" />
         <meta content="https://my-portfolio-one-red-25.vercel.app/images/wellcome.png" property="og:image" />
 
         {/* <!-- Twitter --> */}
         <meta content="https://my-portfolio-one-red-25.vercel.app/images/wellcome.png" property="twitter:card" />
         <meta content="https://my-portfolio-one-red-25.vercel.app" property="twitter:url" />
-        <meta content="Shivraj Gurjar - Portfolio" property="twitter:title" />
+        <meta content="DUONG - Portfolio" property="twitter:title" />
         <meta content="Explore the best Next.js and React.js portfolio by Shivraj Gurjar. Featuring simple, dark and light theme designs and mobile responsiveness." property="twitter:description" />
         <meta content="https://my-portfolio-one-red-25.vercel.app/images/wellcome.png" property="twitter:image" />
 

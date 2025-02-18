@@ -43,7 +43,7 @@ const Intro = () => {
   return (
     <Fragment>
       <Head>
-        <title>Shiv&apos;s Portfolio</title>
+        <title>DUONG Portfolio</title>
       </Head>
       <section id='home'>
         <div
