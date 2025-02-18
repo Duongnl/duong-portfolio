@@ -2,7 +2,7 @@ export const EducationData = [
     {
         name: "Sai Gon University",
         image:
-            "http://res.cloudinary.com/dhixp5pnk/image/upload/v1696219056/edekjqivqlnsyg8pfmxw.png",
+            "https://res.cloudinary.com/moment-images/image/upload/dh-16902723190611350202437_2811153326_ukert8",
         // schoolOrCollege: "GOVERNMENT COLLEGE, KOTA",
         fromTo: "2021 - 2026",
         statusOrPrecentage: "Studying",
