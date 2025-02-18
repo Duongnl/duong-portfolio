@@ -26,29 +26,29 @@ const Home = () => {
         <title>DUONG Portfolio</title>
         {/* <!-- Primary Meta Tags --> */}
         <meta content="DUONG Portfolio" name="title" />
-        <meta content="Explore the best Next.js and React.js portfolio by Shivraj Gurjar. Featuring simple, dark and light theme designs and mobile responsiveness." name="description" />
+        {/* <meta content="Explore the best Next.js and React.js portfolio by Shivraj Gurjar. Featuring simple, dark and light theme designs and mobile responsiveness." name="description" /> */}
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta content="website" property="og:type" />
         <meta content="https://my-portfolio-one-red-25.vercel.app" property="og:url" />
         <meta content="DUONG Portfolio" property="og:title" />
-        <meta content="Explore the best Next.js and React.js portfolio by Shivraj Gurjar. Featuring simple, dark and light theme designs and mobile responsiveness." property="og:description" />
+        {/* <meta content="Explore the best Next.js and React.js portfolio by Shivraj Gurjar. Featuring simple, dark and light theme designs and mobile responsiveness." property="og:description" /> */}
         <meta content="https://my-portfolio-one-red-25.vercel.app/images/wellcome.png" property="og:image" />
 
         {/* <!-- Twitter --> */}
         <meta content="https://my-portfolio-one-red-25.vercel.app/images/wellcome.png" property="twitter:card" />
         <meta content="https://my-portfolio-one-red-25.vercel.app" property="twitter:url" />
-        <meta content="DUONG - Portfolio" property="twitter:title" />
-        <meta content="Explore the best Next.js and React.js portfolio by Shivraj Gurjar. Featuring simple, dark and light theme designs and mobile responsiveness." property="twitter:description" />
+        <meta content="DUONG Portfolio" property="twitter:title" />
+        {/* <meta content="Explore the best Next.js and React.js portfolio by Shivraj Gurjar. Featuring simple, dark and light theme designs and mobile responsiveness." property="twitter:description" /> */}
         <meta content="https://my-portfolio-one-red-25.vercel.app/images/wellcome.png" property="twitter:image" />
 
         {/* <!-- Other Meta Tags --> */}
-        <meta content="portfolio, Next.js, React.js, web development, dark theme, light theme, best portfolio github, best next js portfolio, how to make a portfolio, best react js portfolio github, best react js portfolio, best next js portfolio, react js developer in Kota, react js developer in Jaipur, react js developer in India, react js developer in Rajasthan" name="keywords" />
+        {/* <meta content="portfolio, Next.js, React.js, web development, dark theme, light theme, best portfolio github, best next js portfolio, how to make a portfolio, best react js portfolio github, best react js portfolio, best next js portfolio, react js developer in Kota, react js developer in Jaipur, react js developer in India, react js developer in Rajasthan" name="keywords" /> */}
         <meta content="DUONG" name="author" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
         {/* <!-- Favicon --> */}
-        <link href="https://my-portfolio-one-red-25.vercel.app/favicon.ico" rel="icon" type="image/x-icon" />
+        {/* <link href="https://my-portfolio-one-red-25.vercel.app/images/107763946.png" rel="icon" type="image/x-icon" /> */}
 
       </Head>
       <div>
