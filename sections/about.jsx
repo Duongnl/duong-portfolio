@@ -61,8 +61,8 @@ const About = () => {
             }
             height={350}
             ref={profile2Ref}
-            src='https://res.cloudinary.com/moment-images/image/upload/tải_xuống_kx3jkb'
-            width={350}
+            src='/images/z63.jpg'
+            width={334}
           />
           <div
             className='text-lg translate-x-[900px] opacity-0 transition-all duration-700 mt-4 md:mt-0 md:w-[50%] text-center md:text-left rounded'

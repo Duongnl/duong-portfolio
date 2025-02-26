@@ -35,6 +35,30 @@ const SendMail = () => {
       });
   };
 
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+ 
+    setSending(true);
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "97da4c74-77b6-4b03-927e-84ad629023fb");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      event.target.reset();
+      setSending(false);
+    } else {
+      setSending(false);
+    }
+  };
+
   return (
     <Fragment>
       <section id='getInTouch'>
@@ -46,7 +70,7 @@ const SendMail = () => {
             Drop A Message
           </h3>
 
-          <form action='' onSubmit={sendMessage}>
+          <form action='' onSubmit={onSubmit}>
             <div className='flex flex-col gap-4 w-[90%] md:w-[35%] m-auto'>
               <input
                 className='dark:bg-black border dark:border-[#07d0e5] border-[#c72c6c] p-2 rounded'
@@ -64,14 +88,14 @@ const SendMail = () => {
                 placeholder='Your Email Address'
                 value={formData.email || ""}
               />
-              <input
+              {/* <input
                 className='dark:bg-black border dark:border-[#07d0e5] border-[#c72c6c] p-2 rounded'
                 id='subject'
                 name='subject'
                 onChange={collectData}
                 placeholder='Subject for mail'
                 value={formData.subject || ""}
-              />
+              /> */}
 
               <textarea
                 className='dark:bg-black border dark:border-[#07d0e5] border-[#c72c6c] p-2 rounded'

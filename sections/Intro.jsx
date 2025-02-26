@@ -62,7 +62,7 @@ const Intro = () => {
               I&apos;m a 
               <span className='text-[#c72c6c] dark:text-[#07d0e5]'>
                 {" "}
-                Duong Le <span className='text-white'>|</span>
+                Duong Le <span className='text-white'></span>
               </span>
             </p>
             <div className='mt-5 md:mt-10 flex gap-3'>
