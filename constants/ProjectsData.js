@@ -34,7 +34,7 @@ export const ProjectsData = [
         projectImage: {
             imageUrl: "/images/Screenshot.png"
         },
-        techs: ["Nextjs", "SpringBoot", "SpringSocket", "SpringSecurity","Boostrap"]
+        techs: ["Nextjs", "SpringBoot", "SpringSocket", "SpringSecurity","Boostrap", "MySQL"]
     }
 
 
