@@ -25,5 +25,17 @@ export const ProjectsData = [
             imageUrl: "https://res.cloudinary.com/moment-images/image/upload/Screenshot_2025-02-18_152720_ykgkti"
         },
         techs: ["Nextjs", "TypeScript", "OpenWeatherMap", "ContextAPI"]
+    },
+
+    {
+        projectName: "Moment",
+        liveUrl: "https://moment.liber.vn",
+        githubUrl: "https://github.com/Duongnl/moment-be",
+        projectImage: {
+            imageUrl: "/images/Screenshot.png"
+        },
+        techs: ["Nextjs", "SpringBoot", "SpringSocket", "SpringSecurity","Boostrap"]
     }
+
+
 ]
