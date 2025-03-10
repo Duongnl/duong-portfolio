@@ -88,7 +88,7 @@ const About = () => {
                   </p>
                 </div>
                 <p className='text-center md:text-left text-[#0b0c0c] dark:text-[#07d0e5]'>
-                  Tan Phu, Ho Chi Minh City{" "}
+                  Ho Chi Minh City{" "}
                 </p>
               </div>
               {/* Age */}
@@ -130,18 +130,17 @@ const About = () => {
                   </p>
                 </div>
                 <p className='text-center md:text-left text-[#c72c6c] dark:text-[#07d0e5]'>
-                  3{" "}
+                  4{" "}
                 </p>
               </div>
             </div>
 
             <div className='mt-5 justify-evenly text-justify'>
               <p className='text-gray-600 dark:text-gray-300'>
-              Hello! I am a passionate software developer specializing in web and software development. 
-              With a strong foundation in Next.js, React, and Spring Boot, 
-              I have experience building optimized, secure, and high-performance web applications. 
-              I am always eager to learn, improve my skills, and contribute to innovative projects. 
-              Let’s connect and create something amazing together!
+                I'm a Software Engineer from Ho Chi Minh City. Passionate about backend development, I specialize in Spring Boot, Java, PHP, Python, and Django, working with databases like MySQL and SQL Server.
+                In addition to backend expertise, I also have experience with frontend technologies such as Next.js, React, TypeScript, JavaScript, HTML, and Tailwind CSS.
+                I have successfully deployed both frontend and backend applications on platforms like AWS, Vercel, Render, and Railway, ensuring scalability, security, and performance.
+                With a strong foundation in building optimized, secure, and high-performance web applications, I am always eager to learn, grow, and contribute to innovative projects. Let’s connect and create something amazing together! 🚀
               </p>
             </div>
           </div>

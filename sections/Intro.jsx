@@ -73,14 +73,14 @@ const Intro = () => {
               >
                 Hire me
               </Link>
-              {/* Download CV Button */}
-              {/* <Link
+                {/* Download CV Button  */}
+              <Link
                 className='text-xl font-semibold rounded border border-red-500 hover:text-white hover:bg-red-500 px-2 py-1'
-                href='https://drive.google.com/file/d/1uk-tv12y8PK-WrE4oX2xRtmSy4PUVSsE/view'
+                href='https://drive.google.com/file/d/1Q5_BWjlZqyZsAIdAuiWY7mhi7Np457AJ/view'
                 target='_blank'
               >
                 Download CV
-              </Link> */}
+              </Link> 
             </div>
           </div>
 
