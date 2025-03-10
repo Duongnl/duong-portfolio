@@ -74,7 +74,7 @@ const About = () => {
             </p>
             {/* Profil Name */}
             <p className='text-center md:text-left text-red-600 mt-1'>
-              Developer
+            Software Engineer
             </p>
             {/* Location */}
             <div className='flex flex-wrap justify-center md:justify-normal gap-5'>
